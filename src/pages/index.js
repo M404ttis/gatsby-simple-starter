@@ -1,9 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
+import* as styles from './index.module.css';
 
 const Home = () => (
   <div>
-    <h1> This is the index page! ⚗️🧪</h1>
+    <h1 className={styles.h1}> This is the index page! ⚗️🧪</h1>
 
     <div>
       <Link to="/">Home</Link> | <Link to="/about"> About me</Link>
