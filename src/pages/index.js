@@ -1,11 +1,12 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const Home = () => (
   <div>
     <h1> This is the index page! ⚗️🧪</h1>
 
     <div>
-      <a href="/">Home</a> <a href="/about"> About me</a>
+      <Link to="/">Home</Link> | <Link to="/about"> About me</Link>
     </div>
 
     <p>
